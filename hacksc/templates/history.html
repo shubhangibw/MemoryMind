@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Forum&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="icon" href="ui pics/logopic.jpeg" type="image/jpeg">
+        <title>
+            Memory Mind
+        </title>
+        <style>
+            body{
+                background-image: radial-gradient(blue, rgb(161, 196, 245));
+                font-family: "Roboto Condensed", sans-serif;
+                color: white;
+                text-align: center;
+            }
+            #title{
+                font-size: 50pt;
+                padding-top: 5%;
+            }
+            #textInput{
+
+            }
+            .headingBar{
+                background-image: linear-gradient(rgb(161, 196, 245), transparent);
+                width: 100%;
+                position: fixed; 
+                top: 0; 
+                left: 0;
+                z-index: 1000;
+                padding: 20px 0;
+                display: flex;
+                justify-content: space-between; 
+                align-items: center; 
+            }
+
+            .about{
+                margin-right: 5%;
+                text-decoration: none;
+                color: white;
+                font-size: 16pt;
+            }
+            .history{
+                margin-right: 3%;
+                text-decoration: none;
+                color: white;
+                font-size: 16pt;
+            }
+            .logo{
+                margin-left: 15%;
+                text-align: center;
+                flex-grow: 1;
+                font-size: 16pt;
+            }
+            .logo img{
+                width: 200px;
+            }
+            .titlee{
+                font-size: 30pt;
+                margin-top: 10%;
+            }
+            img{
+                width: 50%;
+                border-radius: 10px;
+            }
+
+            .chat-container {
+                margin-top:20%;
+                margin-left: 15%;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 60%;
+            }
+            h2 {
+                text-align: center;
+            }
+            .user-data p {
+                font-size: 18px;
+                line-height: 1.5;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div class="headingBar">
+            <a class="logo" href="index.html">
+                <img src="ui pics/memorymind-white.png">
+            </a>
+            <a class="history" href="history.html"> History </a>
+            <a class="about" href="about.html"> About </a>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-display" id="chatHistoryDisplay"></div>
+        </div>
+    </body>
+    <script>
+         window.onload = function() {
+                const chatHistory = JSON.parse(localStorage.getItem("chatHistory")) || [];
+                const chatHistoryDisplay = document.getElementById("chatHistoryDisplay");
+                chatHistory.forEach(item => {
+                    const messageElem = document.createElement('div');
+                    messageElem.classList.add('chat-message');
+                    messageElem.classList.add(item.sender === 'user' ? 'user-message' : 'bot-message');
+                    messageElem.textContent = item.message;
+                    chatHistoryDisplay.appendChild(messageElem);
+                });
+            };
+
+    </script>
+
+    </script>
+</html>

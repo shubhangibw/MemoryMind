@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Forum&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="icon" href="ui pics/logopic.jpeg" type="image/jpeg">
+        <title>
+            Memory Mind
+        </title>
+        <style>
+            body{
+                background-image: radial-gradient(blue, rgb(161, 196, 245));
+                font-family: "Roboto Condensed", sans-serif;
+                color: white;
+                text-align: center;
+            }
+            #title{
+                font-size: 50pt;
+                padding-top: 5%;
+            }
+            #textInput{
+
+            }
+            .headingBar{
+                background-image: linear-gradient(rgb(161, 196, 245), transparent);
+                width: 100%;
+                position: fixed; 
+                top: 0; 
+                left: 0;
+                z-index: 1000;
+                padding: 20px 0;
+                display: flex;
+                justify-content: space-between; 
+                align-items: center; 
+            }
+
+            .about{
+                margin-right: 5%;
+                text-decoration: none;
+                color: white;
+                font-size: 16pt;
+            }
+            .history{
+                margin-right: 3%;
+                text-decoration: none;
+                color: white;
+                font-size: 16pt;
+            }
+            .logo{
+                margin-left: 15%;
+                text-align: center;
+                flex-grow: 1;
+                font-size: 16pt;
+            }
+            .logo img{
+                width: 200px;
+            }
+            .titlee{
+                font-size: 30pt;
+                margin-top: 10%;
+            }
+            img{
+                width: 50%;
+                border-radius: 10px;
+            }
+            .image-container {
+                position:absolute;
+                display: inline-block;
+                top:10%;
+                right:30%;
+                width: 80%;
+            }
+
+
+            .text-overlay {
+                position: absolute;
+                top: 8%;  
+                left: 55%;
+                color: white;
+                font-size: 24px;
+                font-weight: bold;  
+                font-size: 90pt;
+                text-shadow: 2px 2px 5px rgba(0, 0, 0, 1); 
+            }
+            .describe{
+                width: 30%;
+                margin-top: 30%;
+                margin-left: 50%;
+                font-size: 14pt;
+            }
+            .content-wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            @media (max-width: 1400px){
+                .text-overlay{
+                    font-size: 70pt;
+                }
+            }
+            @media (max-width: 1100px){
+            .text-overlay{
+                font-size: 50pt;
+            }
+            .describe{
+                font-size:12pt;
+                margin-top: 32%;
+                width: 40%;
+            }
+            .image-container{
+                top: 15%;
+        }
+        }
+            @media (max-width: 800px) {
+            .logo{
+                margin-left:15%;
+            }
+            .text-overlay {
+                font-size: 30pt;
+                top: -15%;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-bottom: 10px;
+            }
+            .describe {
+                width: 80%;
+                font-size: 12pt;
+                margin-top: 110%; 
+                margin-left:5%;
+            }
+            .image-container {
+                width: 100%; 
+                top:20%;
+                left:1%;
+                
+            }
+            .content-wrapper {
+                flex-direction: column; /* Stack content vertically */
+                align-items: center; /* Center content */
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div class = "headingBar">
+            <a class = "logo" href = "index.html">
+                <img src = "ui pics/memorymind-white.png">
+            </a>
+            <a class = "history" href = "history.html"> History </a>
+            <a class = "about" href = "about.html"> About </a>
+            
+        </div>
+        <div class = "content-wrapper">
+        <div class="image-container">
+            <img src="ui pics/groupphoto.png" alt="Image" class="image">
+            <div class="text-overlay">ABOUT US</div>
+          </div>
+        <p class = "describe">
+            For Hack SC's SoCal Tech Week 2024, our team developed an innovative AI system designed to tackle the common problem faced by high school and college students who struggle with traditional studying methods. 
+            Many students who excel in social, auditory, or visual learning environments often find it difficult to retain lecture-related or new information through conventional educational technology and online learning platforms, as methods like digital flashcards or word memorization can be boring and ineffective. 
+            Our AI system, Memory Mind, takes user input in the form of text notes and transforms it into engaging and memorable educational content, such as popular songs. 
+            By making learning more accessible, interactive, and enjoyable, our solution helps students retain crucial information in a way that aligns with their learning styles.
+
+        </p>
+        </div>
+    </body>
+    <script>
+       
+    </script>
+</html>
