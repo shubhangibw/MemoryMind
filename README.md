@@ -14,12 +14,12 @@ Our [Devpost submission](https://devpost.com/software/memory-mind?_gl=1*s20to2*_
 
 # Meet The Team
 
-| Name               | GitHub Handle                | Contribution                                   |
+| Name               | GitHub Handle                | LinkedIn                                   |
 | ------------------ | ---------------------------- | ---------------------------------------------- |
-| **Aditee Kore**   | [@AditeeKore](https://github.com/AditeeKore) |     |
-| **Shreyas Gaikwad**      | [@shreeistein98](https://github.com/shreeistein98) |       |
-| **Shubhangi Waldiya** | [@shubhangibw](https://github.com/shubhangibw) |  |
-| **Taliyah Harvey** | [@taliyahhh](https://github.com/taliyahhh) |  |
+| **Aditee Kore**   | [@AditeeKore](https://github.com/AditeeKore) | [Aditee](https://www.linkedin.com/in/aditee-kore/) |
+| **Shreyas Gaikwad**      | [@shreeistein98](https://github.com/shreeistein98) | [Shreyas](https://www.linkedin.com/in/shreyas-gaikwad98/) |
+| **Shubhangi Waldiya** | [@shubhangibw](https://github.com/shubhangibw) | [Shubhangi](https://www.linkedin.com/in/shubhangiwaldiya/) |
+| **Taliyah Harvey** | [@taliyahhh](https://github.com/taliyahhh) | [Taliyah](https://www.linkedin.com/in/taliyah-harvey/) |
 
 
 
