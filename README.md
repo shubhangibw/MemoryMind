@@ -1,6 +1,6 @@
 # HackSC_24
 
-This project was created during the SoCal Tech Week Hackathon (SCHacks) at USC. 
+This project was created during the SoCal Tech Week Hackathon (HackSC) at USC. 
 
 # Submission
 
